@@ -7,9 +7,21 @@ namespace Vjezbanje
     {
         static void Main(string[] args)
         {
-         
-            Drawing();
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.Write(" ABSTRACT ");
+            Thread.Sleep(1000);
+            Console.Write("ART MADE BY ");
+            Thread.Sleep(1000);
+            Console.Write("MACHINE ");
+            Thread.Sleep(1000);
+            Console.Write("WITH ");
+            Thread.Sleep(1000);
+            Console.Write("MATHEMATICAL HEART");
 
+
+            Drawing();
         }
 
         static void Music()
@@ -65,7 +77,7 @@ namespace Vjezbanje
                 int x = rnd.Next(1, 11);
 
                 int xP = rnd.Next(1, 50);
-                int yP = rnd.Next(1, 50);
+                int yP = rnd.Next(5, 50);
                 Console.SetCursorPosition(xP, yP);
 
 
