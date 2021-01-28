@@ -16,7 +16,7 @@ namespace Vjezbanje
         {
            
         }
-
+        //fds
         static void Drawing()
         {
             while (true)
