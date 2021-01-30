@@ -13,14 +13,10 @@ namespace Vjezbanje
             Console.Write(" ABSTRACT ");
             Thread.Sleep(1000);
             Console.Write("ART MADE BY ");
+            Thread.Sleep(1000);          
+            Console.Write("CPU ");
             Thread.Sleep(1000);
-            Console.Write("MACHINE ");
-            Thread.Sleep(1000);
-            Console.Write("WITH ");
-            Thread.Sleep(1000);
-            Console.Write("MATHEMATICAL HEART");
-
-
+          
             Drawing();
         }
 
