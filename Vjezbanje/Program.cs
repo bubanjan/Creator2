@@ -20,12 +20,6 @@ namespace Vjezbanje
             Drawing();
         }
 
-        static void Music()
-        {
-           
-        }
-        //fds
-        //t
         static void Drawing()
         {
             while (true)
